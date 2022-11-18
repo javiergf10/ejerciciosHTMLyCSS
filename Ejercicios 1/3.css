@@ -10,5 +10,15 @@ del {
 }
 ins {
     color:green;
-    position:relative;bottom:0.4em;
+    position:relative;
+    bottom:0.4em;
+}
+span.uno {
+    position:relative;
+    bottom: -0.8em;
+
+}
+#tres{
+    font-size: smaller;
+    vertical-align: 5px;
 }
