@@ -1,0 +1,14 @@
+h2 {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+del {
+    color:blue;
+    position:relative;
+    bottom: -0.8em;
+    font-size: 200%;
+}
+ins {
+    color:green;
+    position:relative;bottom:0.4em;
+}
