@@ -1,6 +1,17 @@
-.h1 {
+#T {
     text-align:center;
-    font-size: larger;
-} .h5 {
+    font-size:250%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} body {
     background-color: lightblue;
+} .uno {
+    background-color:cornflowerblue;
+} h1 {
+    background-color: rgba(0, 0, 255, 0.301);
+} .dos {
+    background-color: aliceblue;
+    text-align: end;
+} h3 {
+    opacity: 50%;
+    background-color: rgba(0, 0, 255, 0.301);
 }
