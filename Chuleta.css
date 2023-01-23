@@ -3,5 +3,15 @@ body{/*Propiedades del fondo*/
     background-color:antiquewhite
 }
 #ID{
-
+    text-decoration:overline;/*Eso pone una linea encima del texto*/
+    text-decoration-color: brown;
+    text-decoration;
+}
+.Imagen{/*Está dentro de un div*/
+    text-align: right;/*alinea todo el div a la derecha*/
+    float:right /*Esto hace que el texto de la izquierda suba
+    y no quede un espacio en blanco*/
+}figcaption{
+    font-size:75%;/*Tamaño texto*/
+    direction:ltr;
 }
