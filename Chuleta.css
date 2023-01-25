@@ -10,8 +10,22 @@ body{/*Propiedades del fondo*/
 .Imagen{/*Está dentro de un div*/
     text-align: right;/*alinea todo el div a la derecha*/
     float:right /*Esto hace que el texto de la izquierda suba
-    y no quede un espacio en blanco*/
-}figcaption{
+    y no quede un espacio en blanco porque saca la imagen del flujo normal de
+    la página*/
+}
+figcaption{
     font-size:75%;/*Tamaño texto*/
     direction:ltr;
+}
+.In{
+    vertical-align:bottom;
+    /*The vertical-align property can be used in two contexts:
+
+    To vertically align an inline element's box inside its containing line box. For example, it could be used to vertically position an image in a line of text.
+    To vertically align the content of a cell in a table.*/
+}.box{
+    margin:10px;   
+    border: 15px;    border-color:blue;
+    padding: 10%;
+    width: auto;
 }
