@@ -2,4 +2,7 @@
     text-align: center;
     top: 100px;
     right: 100px;
+}img{
+    position:sticky;
+    float: right;
 }

@@ -1,11 +1,12 @@
 /*Esto es una nota en CSS*/
 body{/*Propiedades del fondo*/
     background-color:antiquewhite
+    font-size:ar/*En body podemos definir la fuente de oda la página*/
 }
 #ID{
     text-decoration:overline;/*Eso pone una linea encima del texto*/
     text-decoration-color: brown;
-    text-decoration;
+    
 }
 .Imagen{/*Está dentro de un div*/
     text-align: right;/*alinea todo el div a la derecha*/
@@ -15,7 +16,7 @@ body{/*Propiedades del fondo*/
 }
 figcaption{
     font-size:75%;/*Tamaño texto*/
-    direction:ltr;
+    
 }
 .In{
     vertical-align:bottom;
@@ -24,8 +25,10 @@ figcaption{
     To vertically align an inline element's box inside its containing line box. For example, it could be used to vertically position an image in a line of text.
     To vertically align the content of a cell in a table.*/
 }.box{
-    margin:10px;   
-    border: 15px;    border-color:blue;
-    padding: 10%;
-    width: auto;
-}
+    margin: 5px;    /*Parte exterior, por fuera del borde*/
+    border: 5px;    border-style:groove;/*Es lo que separa el interior  el exterior del elemento*/
+    padding: 100px;   /*Es la parte interior del elemento, entre el contenido y el borde.*/
+    width: 500px;    /*En azul, es la parte interior del elemento, excluyendo el relleno*/
+    background-color:aquamarine;
+    overflow:hidden; /*Esto hace que el contenido que sobresalga de la caja quede oculto*/
+}/*Si escribiesemos overflow:scroll, con o que se añadirían barras de desplazamiento*/
