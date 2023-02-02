@@ -32,3 +32,13 @@ figcaption{
     background-color:aquamarine;
     overflow:hidden; /*Esto hace que el contenido que sobresalga de la caja quede oculto*/
 }/*Si escribiesemos overflow:scroll, con o que se añadirían barras de desplazamiento*/
+table{
+    border-style: dashed;
+    border-color: red;
+}th{
+    border-style: dashed;
+    border-color:blue;
+}td{
+    border-style: dashed;
+    border-color:yellow;
+}

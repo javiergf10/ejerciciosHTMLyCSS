@@ -14,7 +14,8 @@
     </style>
     Esto sería un CSS interno--->
 </head>
-<body>
+<body><!--Se puede establecer una imagen de fondo como un elemento de body
+     usando background = "img.png"-->
     <h1 style="text-align:center">TITULAZO CENTRADO</h1>
     <div class="Imagen">
     <img src="/Imagenes eje 5/boxdim.png" 
@@ -23,32 +24,67 @@
     height="300"> <!--Ancho y alto, respectivamente, en px-->
     <figcaption>Resumen de una caja</figcaption>
     </div>
-    <b style="color:rgb(22, 72, 78)">Negrita</b><!--Style permite aplicar un css "rápido"-->
-    <br><!--Punto y a parte-->
+    <b style="color:rgb(22, 72, 78)">Negrita</b>
+    <!--Style permite aplicar un css "rápido"-->
+<br><!--Punto y a parte-->
     <i>cursiva</i>
-    <br>
+<br>
     <u>Subrayado</u>
-    <br>
+<br>
     <del>Tachar</del>
-    <br>
+<br>
     <span>In-line element.Util para aplicar un CSS sin mover el texto</span>
-    <br>
+<br>
     <div>Block-element. Altera el texto, haciendolo una "caja"</div>
     <br>
-    <a href="loquesea">Esto es un texto con un link</a>
-    <br>
-    
-    <br>
+    <a href="loquesea">Esto es un texto con un link</a>   
+<br>
     <p ID="ID">Esto es una ID que solo puede ser usada 1 vez</p>
-    <br>
+<br>
     <p class="Class">Esto es una clase que puede ser usada varias veces</p>
-    <br>
+<br>
     <div class="box">
     <p>&lt y &gt se obtienen escribiendo & lt y & gt</p>
     <p>& amp para &</p>
     <p>& quot para "</p>
     <p>& apos; to '</p>
     </div>
-    <br>
+<br>
+    <table><!--Aqui se viene una poedazo table-->
+        <caption>Esto sería el titulo de la tabla</caption>
+        <tr><!--Aquí se define una fila-->
+            <th>Lista de la compra</th><!--Aquí irá un encabezado to guapo-->
+            <td>Cosas que se me olvidaron de la lista de la compra</td><!--Aquí irá una celda de datos--> 
+        </tr>
+           <th colspan="2">Lista de la compra que hago cuando no encuentr la primera lista de la compra</th><!--Para subdividir una columna 
+                usamos el atributo colspan-->
+                <td rowspan="">Muerte</td><!--Para subdividir una fila, usamos el
+                atributo rowspan-->            
+                
+    </table>
+<br>
+    <ul><!--Aquí va una lista sin órden (unordered list)-->
+        <li>Azucar</li><!--Aquí va un elemento de la lista-->
+        <li>Especias</li>
+        <li>Y muchas cosas bonitas</li>
+    </ul>
+<br>
+    <ol type="1"><!--Aquí se viene una lista ordenada (ordered list)-->
+        <!--Con el atributo type se nos despliegan opciones para el orden-->
+        <li>Cafe</li>
+        <li>Azucar</li>
+        <li>Chocolate</li>
+            <ul>
+                <li>Se pueden anidar listas</li>
+            </ul>
+    </ol>
+<br>
+    <dl><!--Lista de descripcion-->
+        <dt>Término a describir</dt>
+        <dd>Descripcion del termino</dd>
+        <dt></dt>
+        <dd></dd>
+    </dl>
+<br>
 </body>
 </html>
