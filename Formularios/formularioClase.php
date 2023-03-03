@@ -9,15 +9,20 @@
     <link rel='stylesheet' type='text/css' media='screen' href='cajas.css'>
     <script src='main.js'></script>
 </head>
+<?php
+echo
+?>
+<form action="send" method="$_GET">
+<div>
+    <label for="nombre">Nombre:</label>
+    <imput type="text" id="nombre" />
+</dv>    
 
-<body>
-    <span>
-        <div id="uno">Utilizando la marca div para agrupar elementos en un bloque, obtener una página similar a ésta. Al
-            menos debe haber 4 estilos de algo.</div>
-            
-        <div id="dos">Me cago en la puta</div>
-    </span>
 
-</body>
-
+<?php
+    if(!isset($_get('asunto')))
+        $_GET('nombre')
+        echo"error"
+?>
+<a href=""></a>        
 </html>
