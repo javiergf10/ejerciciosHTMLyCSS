@@ -26,6 +26,17 @@
         function apagar() {
             document.getElementById('myImage').src = '/imagenes/BombillaApagada.png'
         }
+        function validar() {
+            var x=prompt('ingrese un número del 1 al 10')
+            
+            if(isNaN(x)|| x<11 || x>0) {
+                document.getElementById("numero").innerHTML = "Es válido"
+            }else{
+                document.getElementById("numero").innerHTML = "No sabes contar hasta 10"
+            }
+
+        }
+
     </script>
 
 </head>
@@ -37,6 +48,7 @@
         <button onclick="saludar()">Cambiar</button>
         <!--oneclick -->
     </div>
+    <br>
     <div>
 
         <button onclick="encender()">Turn on the light</button>
@@ -44,6 +56,13 @@
         <img id="myImage" src="/imagenes/BombillaApagada.png" style="width:100px">
 
         <button onclick="apagar()">Turn off the light</button>
+    </div>
+    <br>
+    <div>
+        <textarea placeholder="Introduce un número del 1 al 10"></textarea>
+        <button oneclick="validar()" id="numero">Validar</buton>   
+        <p id="numero"></p>
+        
     </div>
 </body>
 
