@@ -41,4 +41,6 @@ table{
 }td{
     border-style: dashed;
     border-color:yellow;
+}li{
+    display: inline;/*Con esto hacemos que la linea se vuelva horizontal*/
 }
